@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+    --vermelho :#E50914;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    font-size: 14px;
+    
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #000, #141414);
+}
+
+img{
+    height: 70px;
+    margin-left: 2rem;
+    padding: 0 40px 0 0;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;    
+}
+
+.filme-cartaz{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('/img/monstro-cartaz.jpg');
+    background-size: cover;
+    height: 400px;
+    background-attachment: scrol;
+    background-position: top;
+    display: flex;
+        
+}
+
+.filme-cartaz .container h2{
+    margin-top: 12%;
+    margin-left: 2%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.filme-cartaz .sinopse{
+    margin-right: 50%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.b-button button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 13px;
+    cursor: pointer;     
+    transition: .3s ease all;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #fff;
+    color:black
+}
+
+.b-button i{
+    margin-right: 8px;
+}
+
+.section-1{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+.section-2{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+.section-3{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+.box-filme{
+    margin-top: 5%;
+    height: 250px;
+}
