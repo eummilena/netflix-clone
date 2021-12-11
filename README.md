@@ -1,2 +1,2 @@
 Olá!
-Essa é uma reciação simples da interface da Netflix.
+Essa é uma recriação simples da interface da Netflix.
